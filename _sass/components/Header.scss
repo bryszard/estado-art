@@ -1,0 +1,39 @@
+.Header {
+  background-color: map-get($colors, our-blue);
+  height: 100px;
+
+  &__links {
+    display: flex;
+  }
+
+  &__title {
+    font-size: 52px;
+    height: 86%;
+    line-height: 1.9em;
+    text-align: center;
+    width: 100%;
+
+    @media ($tablet) {
+      width: 35%;
+    }
+
+    @media ($xsmall) {
+      line-height: 1.7em;
+    }
+  }
+
+  &__horizontal-line {
+    background-color: map-get($colors, our-brown);
+    border: 1px solid map-get($colors, our-brown);
+    border-radius: 50%;
+    height: 2px;
+    margin: 0;
+
+    &__header {
+      max-width: 1140px;
+      position: absolute;
+      top: 97.5px;
+      width: 100%;
+    }
+  }
+}
