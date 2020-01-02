@@ -1,0 +1,32 @@
+<div id="projects" class="Projects container">
+  <div class="row">
+    <h1>Przykładowe projekty i realizacje</h1>
+
+    <div
+      class="image-gallery"
+      itemscope
+      itemtype="http://schema.org/ImageGallery"
+    >
+      {% for item in (1..19) %}
+        <figure
+          itemprop="associatedMedia"
+          itemscope
+          itemtype="http://schema.org/ImageObject"
+        >
+          <a
+            href="/assets/images/projects/full/project_big_{{ item }}.jpg"
+            itemprop="contentUrl"
+            data-size="600x400"
+          >
+            <img
+              class="thumbnail"
+              src="/assets/images/projects/thumb/project_thumbnail_{{ item }}.jpg"
+              itemprop="thumbnail"
+              alt="Project {{ item }}"
+            />
+          </a>
+        </figure>
+      {% endfor %}
+    </div>
+  </div>
+</div>

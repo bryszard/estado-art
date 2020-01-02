@@ -109,11 +109,11 @@ cb-slideshow,
 }
 
 .cb-slideshow li.home:nth-child(1) span {
-  background-image: url(./images/background/bg1o.jpg);
+  background-image: url(../images/background/bg1o.jpg);
 }
 
 .cb-slideshow li.home:nth-child(2) span {
-  background-image: url(./images/background/bg5o.jpg);
+  background-image: url(../images/background/bg5o.jpg);
   -webkit-animation-delay: 6s;
   -moz-animation-delay: 6s;
   -o-animation-delay: 6s;
@@ -122,7 +122,7 @@ cb-slideshow,
 }
 
 .cb-slideshow li.home:nth-child(3) span {
-  background-image: url(./images/background/bg6o.jpg);
+  background-image: url(../images/background/bg6o.jpg);
   -webkit-animation-delay: 12s;
   -moz-animation-delay: 12s;
   -o-animation-delay: 12s;
@@ -131,7 +131,7 @@ cb-slideshow,
 }
 
 .cb-slideshow li.home:nth-child(4) span {
-  background-image: url(./images/background/bg1o.jpg);
+  background-image: url(../images/background/bg1o.jpg);
   -webkit-animation-delay: 18s;
   -moz-animation-delay: 18s;
   -o-animation-delay: 18s;
@@ -140,7 +140,7 @@ cb-slideshow,
 }
 
 .cb-slideshow li.home:nth-child(5) span {
-  background-image: url(./images/background/bg5o.jpg);
+  background-image: url(../images/background/bg5o.jpg);
   -webkit-animation-delay: 24s;
   -moz-animation-delay: 24s;
   -o-animation-delay: 24s;
@@ -149,7 +149,7 @@ cb-slideshow,
 }
 
 .cb-slideshow li.home:nth-child(6) span {
-  background-image: url(./images/background/bg6o.jpg);
+  background-image: url(../images/background/bg6o.jpg);
   -webkit-animation-delay: 30s;
   -moz-animation-delay: 30s;
   -o-animation-delay: 30s;
@@ -588,7 +588,7 @@ fieldset[disabled] .btn-projekty.active {
 }
 
 .sprite {
-  background-image: url(./images/social.png);
+  background-image: url(../images/social.png);
   background-repeat: no-repeat;
   display: inline-block;
   margin-left: 2px;
@@ -748,11 +748,6 @@ fieldset[disabled] .btn-panel.active {
 }
 
 /* KONTAKT */
-
-.Contact {
-  border-top: 1px solid #bababa;
-  padding-top: 20px;
-}
 
 span.protectedNumber:before {
   content: "tel. " attr(title);

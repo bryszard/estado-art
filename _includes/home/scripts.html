@@ -1,0 +1,116 @@
+<script type="text/javascript" src="{{ "/assets/js/photoswipe.min.js" | relative_url }}"></script>
+<script type="text/javascript" src="{{ "/assets/js/photoswipe-ui-default.min.js" | relative_url }}"></script>
+
+<script>
+  var pswpElement = document.querySelectorAll('.pswp')[0];
+
+  // build items array
+  var items = [
+      {
+          src: '/assets/images/projects/full/project_big_1.jpg',
+          w: 1198,
+          h: 1800
+      },
+      {
+          src: '/assets/images/projects/full/project_big_2.jpg',
+          w: 1400,
+          h: 932
+      },
+      {
+          src: '/assets/images/projects/full/project_big_3.jpg',
+          w: 1400,
+          h: 932
+      },
+      {
+          src: '/assets/images/projects/full/project_big_4.jpg',
+          w: 769,
+          h: 1801
+      },
+      {
+          src: '/assets/images/projects/full/project_big_5.jpg',
+          w: 1198,
+          h: 1800
+      },
+      {
+          src: '/assets/images/projects/full/project_big_6.jpg',
+          w: 1400,
+          h: 1050
+      },
+      {
+          src: '/assets/images/projects/full/project_big_7.jpg',
+          w: 1400,
+          h: 1050
+      },
+      {
+          src: '/assets/images/projects/full/project_big_8.jpg',
+          w: 1350,
+          h: 1800
+      },
+      {
+          src: '/assets/images/projects/full/project_big_9.jpg',
+          w: 1350,
+          h: 1800
+      },
+      {
+          src: '/assets/images/projects/full/project_big_10.jpg',
+          w: 1350,
+          h: 1800
+      },
+      {
+          src: '/assets/images/projects/full/project_big_11.jpg',
+          w: 1350,
+          h: 1800
+      },
+      {
+          src: '/assets/images/projects/full/project_big_12.jpg',
+          w: 1400,
+          h: 1050
+      },
+      {
+          src: '/assets/images/projects/full/project_big_13.jpg',
+          w: 1400,
+          h: 1050
+      },
+      {
+          src: '/assets/images/projects/full/project_big_14.jpg',
+          w: 1400,
+          h: 729
+      },
+      {
+          src: '/assets/images/projects/full/project_big_15.jpg',
+          w: 1400,
+          h: 729
+      },
+      {
+          src: '/assets/images/projects/full/project_big_16.jpg',
+          w: 1400,
+          h: 1050
+      },
+      {
+          src: '/assets/images/projects/full/project_big_17.jpg',
+          w: 1400,
+          h: 729
+      },
+      {
+          src: '/assets/images/projects/full/project_big_18.jpg',
+          w: 1400,
+          h: 729
+      },
+      {
+          src: '/assets/images/projects/full/project_big_19.jpg',
+          w: 1400,
+          h: 729
+      },
+  ];
+
+  // define options (if needed)
+  var options = {
+      // optionName: 'option value'
+      // for example:
+      index: 0 // start at first slide
+  };
+
+  // Initializes and opens PhotoSwipe
+  var gallery = new PhotoSwipe( pswpElement, PhotoSwipeUI_Default, items, options);
+  // gallery.init();
+</script>
