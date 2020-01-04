@@ -1,133 +1,133 @@
 [
   {
-    "src": "/assets/images/projects/full/project_big_1.jpg",
-    "msrc": "/assets/images/projects/thumb/project_thumbnail_1.jpg",
+    "src": "assets/images/projects/full/project_big_1.jpg",
+    "msrc": "assets/images/projects/thumb/project_thumbnail_1.jpg",
     "width": 1198,
     "height": 1800,
     "alt": "Example project"
   },
   {
-    "src": "/assets/images/projects/full/project_big_2.jpg",
-    "msrc": "/assets/images/projects/thumb/project_thumbnail_2.jpg",
+    "src": "assets/images/projects/full/project_big_2.jpg",
+    "msrc": "assets/images/projects/thumb/project_thumbnail_2.jpg",
     "width": 1400,
     "height": 932,
     "alt": "Example project"
   },
   {
-    "src": "/assets/images/projects/full/project_big_3.jpg",
-    "msrc": "/assets/images/projects/thumb/project_thumbnail_3.jpg",
+    "src": "assets/images/projects/full/project_big_3.jpg",
+    "msrc": "assets/images/projects/thumb/project_thumbnail_3.jpg",
     "width": 1400,
     "height": 932,
     "alt": "Example project"
   },
   {
-    "src": "/assets/images/projects/full/project_big_4.jpg",
-    "msrc": "/assets/images/projects/thumb/project_thumbnail_4.jpg",
+    "src": "assets/images/projects/full/project_big_4.jpg",
+    "msrc": "assets/images/projects/thumb/project_thumbnail_4.jpg",
     "width": 769,
     "height": 1801,
     "alt": "Example project"
   },
   {
-    "src": "/assets/images/projects/full/project_big_5.jpg",
-    "msrc": "/assets/images/projects/thumb/project_thumbnail_5.jpg",
+    "src": "assets/images/projects/full/project_big_5.jpg",
+    "msrc": "assets/images/projects/thumb/project_thumbnail_5.jpg",
     "width": 1198,
     "height": 1800,
     "alt": "Example project"
   },
   {
-    "src": "/assets/images/projects/full/project_big_6.jpg",
-    "msrc": "/assets/images/projects/thumb/project_thumbnail_6.jpg",
+    "src": "assets/images/projects/full/project_big_6.jpg",
+    "msrc": "assets/images/projects/thumb/project_thumbnail_6.jpg",
     "width": 1400,
     "height": 1050,
     "alt": "Example project"
   },
   {
-    "src": "/assets/images/projects/full/project_big_7.jpg",
-    "msrc": "/assets/images/projects/thumb/project_thumbnail_7.jpg",
+    "src": "assets/images/projects/full/project_big_7.jpg",
+    "msrc": "assets/images/projects/thumb/project_thumbnail_7.jpg",
     "width": 1400,
     "height": 1050,
     "alt": "Example project"
   },
   {
-    "src": "/assets/images/projects/full/project_big_8.jpg",
-    "msrc": "/assets/images/projects/thumb/project_thumbnail_8.jpg",
+    "src": "assets/images/projects/full/project_big_8.jpg",
+    "msrc": "assets/images/projects/thumb/project_thumbnail_8.jpg",
     "width": 1350,
     "height": 1800,
     "alt": "Example project"
   },
   {
-    "src": "/assets/images/projects/full/project_big_9.jpg",
-    "msrc": "/assets/images/projects/thumb/project_thumbnail_9.jpg",
+    "src": "assets/images/projects/full/project_big_9.jpg",
+    "msrc": "assets/images/projects/thumb/project_thumbnail_9.jpg",
     "width": 1350,
     "height": 1800,
     "alt": "Example project"
   },
   {
-    "src": "/assets/images/projects/full/project_big_10.jpg",
-    "msrc": "/assets/images/projects/thumb/project_thumbnail_10.jpg",
+    "src": "assets/images/projects/full/project_big_10.jpg",
+    "msrc": "assets/images/projects/thumb/project_thumbnail_10.jpg",
     "width": 1350,
     "height": 1800,
     "alt": "Example project"
   },
   {
-    "src": "/assets/images/projects/full/project_big_11.jpg",
-    "msrc": "/assets/images/projects/thumb/project_thumbnail_11.jpg",
+    "src": "assets/images/projects/full/project_big_11.jpg",
+    "msrc": "assets/images/projects/thumb/project_thumbnail_11.jpg",
     "width": 1350,
     "height": 1800,
     "alt": "Example project"
   },
   {
-    "src": "/assets/images/projects/full/project_big_12.jpg",
-    "msrc": "/assets/images/projects/thumb/project_thumbnail_12.jpg",
+    "src": "assets/images/projects/full/project_big_12.jpg",
+    "msrc": "assets/images/projects/thumb/project_thumbnail_12.jpg",
     "width": 1400,
     "height": 1050,
     "alt": "Example project"
   },
   {
-    "src": "/assets/images/projects/full/project_big_13.jpg",
-    "msrc": "/assets/images/projects/thumb/project_thumbnail_13.jpg",
+    "src": "assets/images/projects/full/project_big_13.jpg",
+    "msrc": "assets/images/projects/thumb/project_thumbnail_13.jpg",
     "width": 1400,
     "height": 1050,
     "alt": "Example project"
   },
   {
-    "src": "/assets/images/projects/full/project_big_14.jpg",
-    "msrc": "/assets/images/projects/thumb/project_thumbnail_14.jpg",
+    "src": "assets/images/projects/full/project_big_14.jpg",
+    "msrc": "assets/images/projects/thumb/project_thumbnail_14.jpg",
     "width": 1400,
     "height": 729,
     "alt": "Example project"
   },
   {
-    "src": "/assets/images/projects/full/project_big_15.jpg",
-    "msrc": "/assets/images/projects/thumb/project_thumbnail_15.jpg",
+    "src": "assets/images/projects/full/project_big_15.jpg",
+    "msrc": "assets/images/projects/thumb/project_thumbnail_15.jpg",
     "width": 1400,
     "height": 729,
     "alt": "Example project"
   },
   {
-    "src": "/assets/images/projects/full/project_big_16.jpg",
-    "msrc": "/assets/images/projects/thumb/project_thumbnail_16.jpg",
+    "src": "assets/images/projects/full/project_big_16.jpg",
+    "msrc": "assets/images/projects/thumb/project_thumbnail_16.jpg",
     "width": 1400,
     "height": 1050,
     "alt": "Example project"
   },
   {
-    "src": "/assets/images/projects/full/project_big_17.jpg",
-    "msrc": "/assets/images/projects/thumb/project_thumbnail_17.jpg",
+    "src": "assets/images/projects/full/project_big_17.jpg",
+    "msrc": "assets/images/projects/thumb/project_thumbnail_17.jpg",
     "width": 1400,
     "height": 729,
     "alt": "Example project"
   },
   {
-    "src": "/assets/images/projects/full/project_big_18.jpg",
-    "msrc": "/assets/images/projects/thumb/project_thumbnail_18.jpg",
+    "src": "assets/images/projects/full/project_big_18.jpg",
+    "msrc": "assets/images/projects/thumb/project_thumbnail_18.jpg",
     "width": 1400,
     "height": 729,
     "alt": "Example project"
   },
   {
-    "src": "/assets/images/projects/full/project_big_19.jpg",
-    "msrc": "/assets/images/projects/thumb/project_thumbnail_19.jpg",
+    "src": "assets/images/projects/full/project_big_19.jpg",
+    "msrc": "assets/images/projects/thumb/project_thumbnail_19.jpg",
     "width": 1400,
     "height": 729,
     "alt": "Example project"
