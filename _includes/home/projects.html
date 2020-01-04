@@ -7,25 +7,25 @@
       itemscope
       itemtype="http://schema.org/ImageGallery"
     >
-      {% for item in (1..19) %}
-        <figure
-          itemprop="associatedMedia"
-          itemscope
-          itemtype="http://schema.org/ImageObject"
+      {% for image in site.data.projects %}
+      <figure
+        itemprop="associatedMedia"
+        itemscope
+        itemtype="http://schema.org/ImageObject"
+      >
+        <a
+          href="{{ image.src }}"
+          itemprop="contentUrl"
+          data-size="{{ image.width }}x{{ image.height }}"
         >
-          <a
-            href="/assets/images/projects/full/project_big_{{ item }}.jpg"
-            itemprop="contentUrl"
-            data-size="600x400"
-          >
-            <img
-              class="thumbnail"
-              src="/assets/images/projects/thumb/project_thumbnail_{{ item }}.jpg"
-              itemprop="thumbnail"
-              alt="Project {{ item }}"
-            />
-          </a>
-        </figure>
+          <img
+            class="thumbnail"
+            src="{{ image.msrc }}"
+            itemprop="thumbnail"
+            alt="{{ image.alt }}"
+          />
+        </a>
+      </figure>
       {% endfor %}
     </div>
   </div>
