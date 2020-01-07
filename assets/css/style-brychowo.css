@@ -283,12 +283,12 @@ cb-slideshow,
 }
 
 .nawigacja .logo-container {
-  display: table;
+  display: flex;
+  justify-content: center;
   height: 100px;
 }
 .nawigacja .logo-container a {
-  vertical-align: middle;
-  display: table-cell;
+  align-self: center;
 }
 
 .nawigacja .logo-container img {
@@ -296,7 +296,8 @@ cb-slideshow,
   float: right;
 }
 
-.nawigacja .menu-container.col-md-8 {
+.nawigacja .menu-container {
+  display: block;
   padding-left: 100px;
   padding-right: 0;
 }
@@ -567,6 +568,7 @@ fieldset[disabled] .btn-projekty.active {
 .Footer__row {
   align-items: center;
   display: flex;
+  flex-direction: row;
 }
 
 .stopka {
@@ -1058,23 +1060,8 @@ section#map {
   .navbar-nav > li > a {
     width: 180px;
   }
-  .container-fluid.szrek .col-md-2 {
-    display: none;
-  }
-  .szrek .col-md-10 {
-    border-top: 4px solid #79ded6;
-
-    width: 100%;
-    padding-left: 0;
-    margin-left: -25px;
-  }
 }
 
-@media only screen and (max-width: 1343px) {
-  .navbar-nav > li > a {
-    width: 180px;
-  }
-}
 @media only screen and (max-width: 1293px) {
   .navbar-nav > li > a {
     width: 164px;
@@ -1083,68 +1070,47 @@ section#map {
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width: 1200px) {
-  .navbar-left {
-    float: right !important;
-    width: 100%;
-    padding-left: 15px;
-    padding-bottom: 15px;
-  }
-
-  .navbar-nav > li {
-    border-right: 0;
-    width: 100%;
-  }
-  .navbar-nav > li > a {
-    width: 100%;
-    height: 50px;
-  }
-
   .pasek-ziel .boksy {
     left: 1px;
   }
 
   .nawigacja .logo-container a {
-    vertical-align: top;
-    display: table-cell;
+    padding-left: 50px;
   }
 
-  .nawigacja .logo-container {
-    display: table;
-    height: 65px;
+  .nawigacja .logo-container img {
+    float: left;
   }
 
-  .nawigacja .menu-container.col-md-8 {
-    padding-left: 0;
-    padding-right: 0;
-  }
-
-  .navbar-collapse.collapse {
-    display: none !important;
-  }
-  .navbar-collapse.collapse.in {
-    display: block !important;
-  }
-  .navbar-header .collapse,
-  .navbar-toggle {
-    display: block !important;
-  }
-  .navbar-header {
-    float: none;
-  }
-  .navbar-right {
-    float: none !important;
-  }
   .navbar-nav > li {
-    float: none;
+    font-size: 15px;
   }
-  .navbar-default .navbar-collapse,
-  .navbar-default .navbar-form {
-    border-top: 1px solid #e7e7e7;
+
+  .navbar-nav > li > a {
+    height: 80px;
+  }
+}
+
+@media (max-width: 1140px) {
+  .nawigacja {
+    margin-top: 0;
+  }
+
+  .nawigacja .menu-container {
+    display: none;
   }
 }
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width: 992px) {
+  .cb-slideshow li span {
+    top: 100px;
+  }
+
+  .nawigacja .logo-container a {
+    padding-left: 0;
+  }
+
   .pg-item {
     margin-bottom: 20px;
     margin-left: 10px;
@@ -1171,30 +1137,6 @@ section#map {
   .pasek-ziel .plus img {
     width: 75%;
     height: auto;
-  }
-
-  .navbar-collapse.collapse {
-    display: none !important;
-  }
-  .navbar-collapse.collapse.in {
-    display: block !important;
-  }
-  .navbar-header .collapse,
-  .navbar-toggle {
-    display: block !important;
-  }
-  .navbar-header {
-    float: none;
-  }
-  .navbar-right {
-    float: none !important;
-  }
-  .navbar-nav > li {
-    float: none;
-  }
-  .navbar-default .navbar-collapse,
-  .navbar-default .navbar-form {
-    border-top: 1px solid #e7e7e7;
   }
 }
 
@@ -1266,9 +1208,6 @@ section#map {
     margin-right: 15px;
     margin-left: 15px;
   }
-  .tresc-glowna {
-    margin-top: 200px;
-  }
   .tresc-glowna-panel-prawy {
     padding-left: 15px;
   }
@@ -1318,42 +1257,12 @@ section#map {
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 568px) {
-  .pasek-ziel .plus {
-    top: 125px;
+  .Footer__row {
+    flex-direction: column;
   }
-  .pasek-ziel .boksy-tekst {
-    margin-top: 25px;
-  }
-}
 
-/* Extra Small Devices, Phones */
-@media only screen and (max-width: 480px) {
-  .pasek-ziel .plus {
-    top: 125px;
-  }
-  .pasek-ziel .boksy-tekst {
-    margin-top: 25px;
-  }
-}
-
-/* Extra Small Devices, Phones */
-@media only screen and (max-width: 414px) {
-  .pasek-ziel .plus {
-    top: 145px;
-  }
-}
-
-/* Extra Small Devices, Phones */
-@media only screen and (max-width: 384px) {
-  .pasek-ziel .plus {
-    top: 165px;
-  }
-}
-
-/* Extra Small Devices, Phones */
-@media only screen and (max-width: 375px) {
-  .pasek-ziel .plus {
-    top: 185px;
+  .Footer__cell {
+    margin-bottom: 10px;
   }
 }
 

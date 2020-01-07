@@ -12,6 +12,7 @@
   & .image-gallery {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     margin: 50px auto;
     width: 80%;
   }
