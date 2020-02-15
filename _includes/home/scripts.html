@@ -4,3 +4,12 @@
   type="text/javascript"
   src="assets/js/photoswipe-ui-default.min.js"
 ></script>
+
+<script>
+  if (
+    window.location.host.indexOf("localhost") === -1 &&
+    window.location.protocol != "https:"
+  ) {
+    window.location.protocol = "https:";
+  }
+</script>
